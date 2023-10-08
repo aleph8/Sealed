@@ -1,0 +1,22 @@
+{
+  "name": "web-stego",
+  "version": "1.0.0",
+  "description": "Web tool in order to encrypt an image using LSB algorithm",
+  "main": "index.js",
+  "scripts": {
+    "serve": "echo '[!] Running dev server on 3030' && cd dist && python3 -m http.server 3030",
+    "devbuild": "rm -rf ./dist; mkdir dist; cp -r src/img dist; cp ./index.html dist/ ; npx webpack --config webpack.dev.js"
+  },
+  "author": "Alejandro García Peláez",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "postcss-loader": "^7.3.3",
+    "style-loader": "^3.3.3",
+    "tailwindcss": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

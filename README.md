@@ -60,7 +60,7 @@ It is a large scale project so there are a multitude of tasks such as:
 
 + Improvements in UX and UI.
 
-+ Incrementar el número de StegoBoxes y hacer nuevos algoritmos.
++ Add new Stegobox and make new algorithms.
 
 + Improving existing algorithms.
 
